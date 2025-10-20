@@ -1,0 +1,230 @@
+{
+  "summary": {
+    "total_tests": 29,
+    "passed_tests": 29,
+    "success_rate": 100.0,
+    "timestamp": "2025-10-20T11:05:19.395123"
+  },
+  "test_results": [
+    {
+      "test": "Root API Endpoint",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-20T11:04:53.476027"
+    },
+    {
+      "test": "Register Student",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-20T11:04:53.744066"
+    },
+    {
+      "test": "Register Faculty",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-20T11:04:54.008630"
+    },
+    {
+      "test": "Register Admin",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-20T11:04:54.308972"
+    },
+    {
+      "test": "Login Student",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-20T11:04:54.567495"
+    },
+    {
+      "test": "Login Faculty",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-20T11:04:54.828240"
+    },
+    {
+      "test": "Login Admin",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-20T11:04:55.091302"
+    },
+    {
+      "test": "Get Current User (Student)",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-20T11:04:55.132760"
+    },
+    {
+      "test": "Get Current User (Faculty)",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-20T11:04:55.171731"
+    },
+    {
+      "test": "Get Current User (Admin)",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-20T11:04:55.211325"
+    },
+    {
+      "test": "Create Session",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-20T11:04:55.250392"
+    },
+    {
+      "test": "Get Sessions (Student)",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-20T11:04:55.290930"
+    },
+    {
+      "test": "Get Sessions (Faculty)",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-20T11:04:55.330848"
+    },
+    {
+      "test": "Get Sessions (Admin)",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-20T11:04:55.370537"
+    },
+    {
+      "test": "Get Active Sessions",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-20T11:04:55.410843"
+    },
+    {
+      "test": "Mark Attendance",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-20T11:04:55.954503"
+    },
+    {
+      "test": "Get Attendance History",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-20T11:04:55.993734"
+    },
+    {
+      "test": "Get Session Attendance",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-20T11:04:56.036307"
+    },
+    {
+      "test": "Analytics Overview (Student)",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-20T11:04:56.076753"
+    },
+    {
+      "test": "Analytics Overview (Faculty)",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-20T11:04:56.116974"
+    },
+    {
+      "test": "Analytics Overview (Admin)",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-20T11:04:56.158274"
+    },
+    {
+      "test": "Analytics Trends (Student)",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-20T11:04:56.196145"
+    },
+    {
+      "test": "Analytics Trends (Faculty)",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-20T11:04:56.237414"
+    },
+    {
+      "test": "Analytics Trends (Admin)",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-20T11:04:56.319807"
+    },
+    {
+      "test": "AI Insights (Faculty)",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-20T11:05:05.557417"
+    },
+    {
+      "test": "AI Insights (Admin)",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-20T11:05:19.257154"
+    },
+    {
+      "test": "End Session",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-20T11:05:19.315753"
+    },
+    {
+      "test": "Unauthorized Access (No Token)",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-20T11:05:19.354318"
+    },
+    {
+      "test": "Unauthorized Session Creation (Student)",
+      "success": true,
+      "details": "",
+      "timestamp": "2025-10-20T11:05:19.394805"
+    }
+  ],
+  "users_created": {
+    "student": {
+      "id": "946e1f06-aa5c-4bca-874d-403cbb281d4b",
+      "email": "student_1760958293@test.edu",
+      "name": "Test Student",
+      "role": "student",
+      "department": "Computer Science",
+      "student_id": "STU12345",
+      "created_at": "2025-10-20T11:04:53.738348Z"
+    },
+    "faculty": {
+      "id": "4aeb6f35-7381-415a-94a2-7c7ec270d132",
+      "email": "faculty_1760958293@test.edu",
+      "name": "Test Faculty",
+      "role": "faculty",
+      "department": "Computer Science",
+      "student_id": null,
+      "created_at": "2025-10-20T11:04:54.003703Z"
+    },
+    "admin": {
+      "id": "fec9ee08-647d-4bd9-9812-1debc93427b1",
+      "email": "admin_1760958293@test.edu",
+      "name": "Test Admin",
+      "role": "admin",
+      "department": "Administration",
+      "student_id": null,
+      "created_at": "2025-10-20T11:04:54.263298Z"
+    }
+  },
+  "sessions_created": {
+    "test_session": {
+      "id": "a0ec095f-f6d6-4aa8-b9f3-a750d20dcf9f",
+      "course_name": "Introduction to AI",
+      "course_code": "CS301",
+      "faculty_id": "4aeb6f35-7381-415a-94a2-7c7ec270d132",
+      "faculty_name": "Test Faculty",
+      "department": "Computer Science",
+      "start_time": "2025-10-20T11:04:55.245522Z",
+      "end_time": null,
+      "is_active": true,
+      "qr_code": "d4f90eb1-5078-4d85-a491-da3643d58bc6",
+      "total_students": 0,
+      "present_count": 0,
+      "created_at": "2025-10-20T11:04:55.245552Z"
+    }
+  }
+}
